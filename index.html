@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <title>tailwind</title>
+  </head>
+  <body class="font-sans">
+    <header class="bg-[#FFF8F3]">
+      <div>
+        <nav class="flex items-center justify-between max-w-5xl m-auto">
+          <section>
+            <h1 class="font-bold text-4xl font-mono mt-[40px]">
+              As<span class="text-red-500">i</span>f
+            </h1>
+          </section>
+          <section>
+            <ul class="mt-[40px] flex items-center">
+              <li class="mr-[50px]"><a href="">Portfolio</a></li>
+              <li class="mr-[50px]"><a href="">Blog</a></li>
+              <li class="bg-red-500 text-white p-2 rounded-sm">
+                <a href="">Hire Me</a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+        <div
+          class="flex items-center justify-between m-auto max-w-5xl mt-[50px]"
+        >
+          <section class=" ">
+            <h2 class="text-3xl font-sans">Hi, I am</h2>
+            <h1 class="text-5xl font-bold font-sans mt-[10px] mb-[20px]">
+              Md.Asiful Islam Asif
+            </h1>
+            <p class="font-sans text-[#757575]">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />Dolore
+              deserunt, sapiente necessitatibus dolor eligendi nulla ipsam.
+            </p>
+            <br />
+            <div class="font-medium flex">
+              <button
+                class="text-base bg-red-500 text-white p-2 rounded pl-[20px] pr-[20px]"
+              >
+                Download CV
+              </button>
+              <button
+                class="text-base border-2 border-solid border-red-500 text-red-500 p-2 pl-[20px] pr-[20px] rounded ml-[20px]"
+              >
+                Contact Me
+              </button>
+            </div>
+          </section>
+          <section>
+            <img
+              class="h-[350px] w-[420px] rounded-xl"
+              src="./image/max-duzij-qAjJk-un3BI-unsplash.jpg"
+              alt=""
+            />
+          </section>
+        </div>
+        <section>
+          <!-- <h1 class="font-bold text-4xl text-[#18181826] -rotate-90 ">Developer</h1> -->
+        </section>
+      </div>
+    </header>
+    <main>
+      <header>
+        <div class="bg-[#FFF8F3] mt-24 m-auto max-w-5xl rounded-xl">
+          <section>
+            <h1 class="text-center font-bold text-[25px] pt-[110px]">
+              About Me
+            </h1>
+            <br />
+            <p class="text-center text-[#757575]">
+              I, m a designer & developer with a passion for web design. I enjoy
+              developing simple, clean and <br />slick websites that provide
+              real value to the end user. Thousands of clients have procured
+              <br />
+              exceptional resulfs while working with me. Delivering work within
+              time and budget which meets <br />
+              clients requirements in our mata.
+            </p>
+            <br />
+            <br />
+          </section>
+          <section class="inline flex justify-evenly pb-[110px] text-center">
+            <div>
+              Name:
+              <section class="font-semibold text-[18px]">
+                Md.Asiful Islam Asif
+              </section>
+            </div>
+            <div>
+              Email:
+              <section class="font-semibold text-[18px]">
+                asifakondo11@gmail.com
+              </section>
+            </div>
+            <div>
+              Date of Birth:
+              <section class="font-semibold text-[18px]">02-05-2005</section>
+            </div>
+            <div>
+              Adderss:
+              <section class="font-semibold text-[18px]">
+                Pirganj,Rangpur
+              </section>
+            </div>
+          </section>
+        </div>
+      </header>
+      <main>
+        <div class="text-center mt-20">
+          <section class="font-bold text-[25px]">What I Do</section>
+          <section class="text-[#757575;]">
+            <p>
+              I have more than 10 years experience building software for clients
+              all over the world. Below is a quick <br />
+              overview of my main technical skill sets and technologies i use.
+              Want to find out more about my experience? <br />
+              Check out my online resume and project portfolio.
+            </p>
+          </section>
+        </div>
+        <!-- card start here -->
+        <div class="mt-10">
+          <section class="m-auto max-w-5xl flex justify-between gap-x-4">
+            <div class="h-[340px] w-[250px] pl-[20px] rounded-md shadow-xl">
+              <img
+                class="h-[100px] w-[100px] ml-[58px] mt-[22px]"
+                src="./image/html.jpg"
+                alt=""
+              />
+              <h1 class="font-bold text-base text-center">HTML5</h1>
+              <p class="text-[#757575]">
+                List skill/technologies <br />here. You can change the
+                <br />icon above to any of the <br />1500+ FontAwesome 5
+                <br />free icons available. <br />Aenean commodo ligula
+                <br />eget dolor.
+              </p>
+            </div>
+
+            <div class="h-[340px] w-[250px] pl-[20px] rounded-md shadow-xl">
+              <img
+                class="h-[100px] w-[100px] ml-[58px] mt-[22px]"
+                src="./image/css.jpg"
+                alt=""
+              />
+              <h1 class="font-bold text-base text-center">CSS</h1>
+              <p class="text-[#757575]">
+                List skill/technologies <br />here. You can change the
+                <br />icon above to any of the <br />1500+ FontAwesome 5
+                <br />free icons available. <br />Aenean commodo ligula
+                <br />eget dolor.
+              </p>
+            </div>
+
+            <div class="h-[340px] w-[250px] pl-[20px] rounded-md shadow-xl">
+              <img
+                class="h-[100px] w-[140px] ml-[35px] mt-[22px]"
+                src="./image/tailwind.jpg"
+                alt=""
+              />
+              <h1 class="font-bold text-base text-center">TAILWIND CSS</h1>
+              <p class="text-[#757575]">
+                List skill/technologies <br />here. You can change the
+                <br />icon above to any of the <br />1500+ FontAwesome 5
+                <br />free icons available. <br />Aenean commodo ligula
+                <br />eget dolor.
+              </p>
+            </div>
+
+            <div class="h-[340px] w-[250px] pl-[20px] rounded-md shadow-xl">
+              <img
+                class="h-[100px] w-[100px] ml-[58px] mt-[22px]"
+                src="./image/bootstrap.jpg"
+                alt=""
+              />
+              <h1 class="font-bold text-base text-center">BOOTSTRAP</h1>
+              <p class="text-[#757575]">
+                List skill/technologies <br />here. You can change the
+                <br />icon above to any of the <br />1500+ FontAwesome 5
+                <br />free icons available. <br />Aenean commodo ligula
+                <br />eget dolor.
+              </p>
+            </div>
+          </section>
+        </div>
+        <!-- resume -->
+        <div>
+          <h1 class="font-bold text-3xl text-center my-24 ">
+            A summary of My Resume
+          </h1>
+          <div class="m-auto max-w-5xl flex justify-between mt-18">
+            <section>
+              <div>
+                <h1 class="font-bold text-2xl text-[#474747]">My Education</h1>
+              </div>
+              <div class="mt-7">
+                <h1 class="font-bold text-xl text-[#474747]">
+                  Master in Computer Engineering
+                </h1>
+                <p class="text-[#757575] font-medium text-md mt-2">
+                  Harvard University / 2015 - 2017
+                </p>
+                <p class="text-[#757575] mt-4">
+                  List skill/technologies here. You can change the icon above
+                  <br />
+                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  <br />commodo ligula eget dolor.
+                </p>
+                <p class="border border-[#D1D1D1] mt-7"></p>
+              </div>
+
+              <div class="mt-7">
+                <h1 class="font-bold text-xl text-[#474747]">
+                  Master in Computer Engineering
+                </h1>
+                <p class="text-[#757575] font-medium text-md mt-2">
+                  Harvard University / 2015 - 2017
+                </p>
+                <p class="text-[#757575] mt-4">
+                  List skill/technologies here. You can change the icon above
+                  <br />
+                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  <br />commodo ligula eget dolor.
+                </p>
+                <p class="border border-[#D1D1D1] mt-7"></p>
+              </div>
+
+              <div class="mt-7">
+                <h1 class="font-bold text-xl text-[#474747]">
+                  Master in Computer Engineering
+                </h1>
+                <p class="text-[#757575] font-medium text-md mt-2">
+                  Harvard University / 2015 - 2017
+                </p>
+                <p class="text-[#757575] mt-4">
+                  List skill/technologies here. You can change the icon above
+                  <br />
+                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  <br />commodo ligula eget dolor.
+                </p>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h1 class="font-bold text-2xl text-[#474747]">My Experience</h1>
+              </div>
+              <div class="mt-7">
+                <h1 class="font-bold text-xl text-[#474747]">
+                  Sr. Font End Developer
+                </h1>
+                <p class="text-[#757575] font-medium text-md mt-2">
+                  Apple Inc / 2020 - Current
+                </p>
+                <p class="text-[#757575] mt-4">
+                  List skill/technologies here. You can change the icon above
+                  <br />
+                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  <br />commodo ligula eget dolor.
+                </p>
+                <p class="border border-[#D1D1D1] mt-7"></p>
+              </div>
+
+              <div class="mt-7">
+                <h1 class="font-bold text-xl text-[#474747]">
+                  Sr. Font End Developer
+                </h1>
+                <p class="text-[#757575] font-medium text-md mt-2">
+                  Apple Inc / 2020 - Current
+                </p>
+                <p class="text-[#757575] mt-4">
+                  List skill/technologies here. You can change the icon above
+                  <br />
+                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  <br />commodo ligula eget dolor.
+                </p>
+                <p class="border border-[#D1D1D1] mt-7"></p>
+              </div>
+
+              <div class="mt-7">
+                <h1 class="font-bold text-xl text-[#474747]">
+                  Sr. Font End Developer
+                </h1>
+                <p class="text-[#757575] font-medium text-md mt-2">
+                  Apple Inc / 2020 - Current
+                </p>
+                <p class="text-[#757575] mt-4">
+                  List skill/technologies here. You can change the icon above
+                  <br />
+                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  <br />commodo ligula eget dolor.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="text-center mt-10">
+          <button
+            class="text-base bg-red-500 text-white p-2 rounded pl-[20px] pr-[20px]"
+          >
+            Download CV
+          </button>
+        </div>
+      </footer>
+    </main>
+    <footer class="bg-[#FFF8F3]">
+      <div class="m-auto max-w-5xl flex mt-24 py-14">
+        <section class=" w-1/2">
+          <h1 class="font-bold text-2xl">Lets Connect</h1>
+          <p class="mt-4 text-[#474747]">
+            Please fill out the form on this section to <br />contact with me or
+            call between <br />9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <div class="flex mt-4">
+            <img class="mr-[25px]" src="./image/facebok.png" alt="" />
+            <img src="./image/twiter.png" alt="" />
+          </div>
+        </section>
+        <section class="w-1/2">
+          <h1 class="font-bold text-2xl">Let’s Message me</h1>
+          <div class="grid gap-5 my-5">
+            <input
+              type="name"
+              placeholder="Your name"
+              class="input p-2 w-full border border-none"
+            /> <input
+            type="email"
+            placeholder="Your email"
+            class="input p-2 w-full border border-none"
+          />
+            <textarea
+              class="text-area border border-none h-28"
+              placeholder="message"
+            ></textarea>
+          </div>
+          <button class="text-base bg-red-500 text-white p-2 rounded px-8">
+            Submit
+          </button>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
